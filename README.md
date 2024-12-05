@@ -1,15 +1,12 @@
 # CSM-VI-Final-Project
 
-1. Project Title
 # Aircraft Engine Remaining Useful Life (RUL) Prediction
 
-2. Project Description
 ## Project Description
 This project predicts the Remaining Useful Life (RUL) of aircraft engines using sensor data. Accurate RUL predictions can help schedule maintenance proactively, reduce downtime, and improve safety.
 
 The project uses machine learning models, including Random Forest, Linear Regression, and Decision Trees, to estimate RUL based on operational settings and sensor measurements.
 
-3. Dataset Information
 ## Dataset
 The dataset comes from the NASA Turbofan Engine Degradation Simulation dataset. It includes:
 - **Training data**: Simulated engine run-to-failure cycles.
@@ -23,7 +20,6 @@ Each record contains:
 
 [Link to Dataset Documentation](https://data.nasa.gov/).
 
-4. Project Structure
 ## Project Structure
 - `train_FD001.txt`: Training dataset.
 - `test_FD001.txt`: Test dataset.
@@ -31,7 +27,6 @@ Each record contains:
 - `RUL_Prediction.ipynb`: Jupyter Notebook containing the code for preprocessing, modeling, and evaluation.
 - `README.md`: Project documentation.
 
-5. Methodology
 ## Methodology
 
 1. **Data Preprocessing**:
@@ -52,7 +47,6 @@ Each record contains:
    - Used Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) as performance metrics.
    - Compared model predictions with true RUL values.
 
-6. Results
 ## Results
 - The **Random Forest model** outperformed the others, achieving the lowest MAE and RMSE on the test set.
 - Model Comparison:
@@ -63,7 +57,6 @@ Each record contains:
 ### Visualizations
 - [Insert relevant plots, e.g., True vs. Predicted RUL, Feature Importance]
 
-7. How to Run the Project
 ## How to Run the Project
 
 1. Clone the repository:
@@ -77,8 +70,6 @@ jupyter notebook RUL_Prediction.ipynb
 
 Follow the steps in the notebook to preprocess the data, train models, and evaluate performance.
 
-### **8. Technologies Used**
-```markdown
 ## Technologies Used
 - Python
 - Pandas, NumPy, Matplotlib, Seaborn (Data processing and visualization)
@@ -86,16 +77,11 @@ Follow the steps in the notebook to preprocess the data, train models, and evalu
 - GridSearchCV (Hyperparameter tuning)
 - Jupyter Notebook
 
-9. Future Improvements
 ## Future Improvements
 - Experiment with additional models like Gradient Boosting (e.g., XGBoost, LightGBM).
 - Incorporate real-world sensor data for better generalization.
 - Implement real-time predictions using a deployed model.
 - Explore advanced feature engineering techniques.
 
-11. Contact Information
-## Contact
-For questions or feedback, feel free to reach out:
-- Name: [Your Name]
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile Link]
+## Conclusion
+- Predictive Maintenance is very efficient and is the next great thing. It ensures safety and efficiency for the airlines and companies that use it. It will save companies a lot of money with safety coming first.
